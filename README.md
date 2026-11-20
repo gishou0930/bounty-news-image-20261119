@@ -16,7 +16,7 @@ python main.py
 
 The Python standard-library program copies the committed image to `/output/entry.png`. It reads no clock, uses no randomness and makes no network calls. The output directory must be writable.
 
-The image is a complete 1024 × 1024 PNG, 706,947 bytes, below the 1 MiB cap. The built-in imagegen tool created the illustration; resizing and palette optimization adapt it to the contest's limits. See [IMAGE_PROMPT.md](IMAGE_PROMPT.md) for the exact prompt.
+The image is a complete 1024 × 1024 PNG, 706,947 bytes, below the 1 MiB cap. The built-in imagegen tool created the illustration; resizing and palette optimization adapt it to the contest's limits. The exact [image-generation prompt](https://github.com/gishou0930/bounty-news-image-20261119/blob/91dc77f0052d0bf660f7e3c843db794d2e202618/IMAGE_PROMPT.md) remains available in the repository history.
 
 ## Editorial notes
 
