@@ -32,7 +32,9 @@ The PNG was decoded and visually inspected after resizing and compression. These
 
 ## Status
 
-Prepared for the bounty; no make.fun submission has been sent. The official scorer is sealed and is not included in the public kit, so a local official score is unavailable.
+Prepared for the bounty. Build records are privacy-filtered, with internal instructions withheld and the omissions explicitly disclosed to make.fun. Admission and reward eligibility depend on the official transcript checks.
+
+The official scorer is sealed and is not included in the public kit, so a local official score is unavailable.
 
 ## License
 
