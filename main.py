@@ -1,15 +1,10 @@
-"""Write the fixed 19 November 2026 news illustration without network access."""
+"""Write the 19 November edition from its bundled image."""
 
 from pathlib import Path
-from shutil import copyfile
-
-
-def main():
-    image = Path(__file__).resolve().with_name("news.png")
-    output = Path("/output/entry.png")
-    output.parent.mkdir(parents=True, exist_ok=True)
-    copyfile(image, output)
 
 
 if __name__ == "__main__":
-    main()
+    edition = Path(__file__).resolve().with_name("world-brief.jpg").read_bytes()
+    target = Path("/output/entry.png")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_bytes(edition)

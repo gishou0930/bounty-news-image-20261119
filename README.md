@@ -1,47 +1,27 @@
-# The World in Six Stories — 19 November 2026
+# World Brief · 19 November 2026
 
 [![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 [![rank](https://make.fun/badge/news-image-20261119/gishou0930/bounty-news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 [![reward](https://make.fun/badge/news-image-20261119/gishou0930/bounty-news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-An original illustrated digest of Thursday, 19 November 2026, prepared for make.fun's world-news image bounty. It covers diplomacy, international justice, climate negotiations, Gaza, severe weather and technology markets.
+An illustrated front page of ten stories from Thursday, 19 November 2026. The Shenzhen summit and the Rohingya judgment lead the edition, with reports from Berlin, Gaza, Antalya, New York, Mogadishu, Quito, the Bay of Bengal and deep space. The [reporting notes](SOURCES.md) link to dated sources.
 
-![The world on 19 November 2026](news.png)
+![World Brief front page for 19 November 2026](world-brief.jpg)
 
 ## Run it
 
-```sh
-python main.py
-```
+With Python 3.13 and a writable `/output` directory:
 
-The Python standard-library program copies the committed image to `/output/entry.png`. It reads no clock, uses no randomness and makes no network calls. The output directory must be writable.
+    python main.py
 
-The image is a complete 1024 × 1024 PNG, 706,947 bytes, below the 1 MiB cap. The built-in imagegen tool created the illustration; resizing and palette optimization adapt it to the contest's limits. The exact [image-generation prompt](https://github.com/gishou0930/bounty-news-image-20261119/blob/91dc77f0052d0bf660f7e3c843db794d2e202618/IMAGE_PROMPT.md) remains available in the repository history.
+The entrypoint copies the committed JPEG to `/output/entry.png`, the path required by the bounty for either image format. It uses the Python standard library and works offline. The image measures 1024 × 1024 pixels.
 
-## Editorial notes
-
-The date is prominent, every headline identifies a specific event, and all six stories have [dated sources](SOURCES.md). The cyclone's landfall is labeled as a forecast for 20 November. The climate story refers to a draft, and the Gaza reopening statement is attributed to Israel.
-
-This is an editorial illustration rather than documentary photography. It contains no instructions to the judge.
-
-## Verification
-
-Two fresh Python 3.13.17 containers ran the program with no network, a read-only repository, 1 CPU and 512 MiB of memory. Both produced exactly the committed image, with SHA-256 `c0055ac3e4be2b23a6020d0a47161e732735b5e217d5e488032602ebeaa60da7`.
-
-The PNG was decoded and visually inspected after resizing and compression. These checks establish the file limits and deterministic output; they do not establish an official judge score or transcript eligibility.
-
-## Status
-
-Submitted as round 1 on 20 November 2026: `01a1f78e-9019-72ab-a320-163e5b862354`, commit `bc8189672024fbd1130a7a2de7b8d52ad1046ba2`.
-
-The server rejected the entry at `transcripts_run_record` because the provider's system instructions were withheld. The upload explicitly disclosed its privacy filtering. It has no official image score and is not a prize-eligible entry.
-
-The official scorer is sealed and is not included in the public kit, so a local official score is unavailable.
+The artwork was created with OpenAI ImageGen, then composed with typeset headlines and reporting captions.
 
 ## License
 
-MIT; see [LICENSE](LICENSE).
+[MIT](LICENSE)
 
 ---
 
-<sub>Prepared for [make.fun](https://make.fun/?ref=97crja9n&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
+<sub>Built for [make.fun](https://make.fun/?ref=97crja9n&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
