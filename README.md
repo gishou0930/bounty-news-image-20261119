@@ -32,7 +32,9 @@ The PNG was decoded and visually inspected after resizing and compression. These
 
 ## Status
 
-Prepared for the bounty. Build records are privacy-filtered, with internal instructions withheld and the omissions explicitly disclosed to make.fun. Admission and reward eligibility depend on the official transcript checks.
+Submitted as round 1 on 20 November 2026: `01a1f78e-9019-72ab-a320-163e5b862354`, commit `bc8189672024fbd1130a7a2de7b8d52ad1046ba2`.
+
+The server rejected the entry at `transcripts_run_record` because the provider's system instructions were withheld. The upload explicitly disclosed its privacy filtering. It has no official image score and is not a prize-eligible entry.
 
 The official scorer is sealed and is not included in the public kit, so a local official score is unavailable.
 
